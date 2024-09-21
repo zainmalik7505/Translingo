@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F76BF7002C9E9AB5008863AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76BF6E72C9E9AB4008863AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76BF6EE2C9E9AB4008863AB;
+			remoteInfo = Translingo;
+		};
+		F76BF70A2C9E9AB5008863AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76BF6E72C9E9AB4008863AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76BF6EE2C9E9AB4008863AB;
+			remoteInfo = Translingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F76BF6EF2C9E9AB4008863AB /* Translingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76BF6FF2C9E9AB5008863AB /* TranslingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76BF7092C9E9AB5008863AB /* TranslingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F76BF6F12C9E9AB4008863AB /* Translingo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Translingo;
+			sourceTree = "<group>";
+		};
+		F76BF7022C9E9AB5008863AB /* TranslingoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TranslingoTests;
+			sourceTree = "<group>";
+		};
+		F76BF70C2C9E9AB5008863AB /* TranslingoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TranslingoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76BF6EC2C9E9AB4008863AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76BF6FC2C9E9AB5008863AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76BF7062C9E9AB5008863AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F76BF6E62C9E9AB4008863AB = {
+			isa = PBXGroup;
+			children = (
+				F76BF6F12C9E9AB4008863AB /* Translingo */,
+				F76BF7022C9E9AB5008863AB /* TranslingoTests */,
+				F76BF70C2C9E9AB5008863AB /* TranslingoUITests */,
+				F76BF6F02C9E9AB4008863AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F76BF6F02C9E9AB4008863AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F76BF6EF2C9E9AB4008863AB /* Translingo.app */,
+				F76BF6FF2C9E9AB5008863AB /* TranslingoTests.xctest */,
+				F76BF7092C9E9AB5008863AB /* TranslingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F76BF6EE2C9E9AB4008863AB /* Translingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76BF7132C9E9AB5008863AB /* Build configuration list for PBXNativeTarget "Translingo" */;
+			buildPhases = (
+				F76BF6EB2C9E9AB4008863AB /* Sources */,
+				F76BF6EC2C9E9AB4008863AB /* Frameworks */,
+				F76BF6ED2C9E9AB4008863AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F76BF6F12C9E9AB4008863AB /* Translingo */,
+			);
+			name = Translingo;
+			packageProductDependencies = (
+			);
+			productName = Translingo;
+			productReference = F76BF6EF2C9E9AB4008863AB /* Translingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F76BF6FE2C9E9AB5008863AB /* TranslingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76BF7162C9E9AB5008863AB /* Build configuration list for PBXNativeTarget "TranslingoTests" */;
+			buildPhases = (
+				F76BF6FB2C9E9AB5008863AB /* Sources */,
+				F76BF6FC2C9E9AB5008863AB /* Frameworks */,
+				F76BF6FD2C9E9AB5008863AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76BF7012C9E9AB5008863AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F76BF7022C9E9AB5008863AB /* TranslingoTests */,
+			);
+			name = TranslingoTests;
+			packageProductDependencies = (
+			);
+			productName = TranslingoTests;
+			productReference = F76BF6FF2C9E9AB5008863AB /* TranslingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F76BF7082C9E9AB5008863AB /* TranslingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76BF7192C9E9AB5008863AB /* Build configuration list for PBXNativeTarget "TranslingoUITests" */;
+			buildPhases = (
+				F76BF7052C9E9AB5008863AB /* Sources */,
+				F76BF7062C9E9AB5008863AB /* Frameworks */,
+				F76BF7072C9E9AB5008863AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76BF70B2C9E9AB5008863AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F76BF70C2C9E9AB5008863AB /* TranslingoUITests */,
+			);
+			name = TranslingoUITests;
+			packageProductDependencies = (
+			);
+			productName = TranslingoUITests;
+			productReference = F76BF7092C9E9AB5008863AB /* TranslingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76BF6E72C9E9AB4008863AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F76BF6EE2C9E9AB4008863AB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F76BF6FE2C9E9AB5008863AB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F76BF6EE2C9E9AB4008863AB;
+					};
+					F76BF7082C9E9AB5008863AB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F76BF6EE2C9E9AB4008863AB;
+					};
+				};
+			};
+			buildConfigurationList = F76BF6EA2C9E9AB4008863AB /* Build configuration list for PBXProject "Translingo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F76BF6E62C9E9AB4008863AB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F76BF6F02C9E9AB4008863AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F76BF6EE2C9E9AB4008863AB /* Translingo */,
+				F76BF6FE2C9E9AB5008863AB /* TranslingoTests */,
+				F76BF7082C9E9AB5008863AB /* TranslingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76BF6ED2C9E9AB4008863AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76BF6FD2C9E9AB5008863AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76BF7072C9E9AB5008863AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76BF6EB2C9E9AB4008863AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76BF6FB2C9E9AB5008863AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76BF7052C9E9AB5008863AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F76BF7012C9E9AB5008863AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76BF6EE2C9E9AB4008863AB /* Translingo */;
+			targetProxy = F76BF7002C9E9AB5008863AB /* PBXContainerItemProxy */;
+		};
+		F76BF70B2C9E9AB5008863AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76BF6EE2C9E9AB4008863AB /* Translingo */;
+			targetProxy = F76BF70A2C9E9AB5008863AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F76BF7112C9E9AB5008863AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F76BF7122C9E9AB5008863AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F76BF7142C9E9AB5008863AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Translingo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8TNP7LCQ34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zain.Translingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F76BF7152C9E9AB5008863AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Translingo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8TNP7LCQ34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zain.Translingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F76BF7172C9E9AB5008863AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TNP7LCQ34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zain.TranslingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Translingo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Translingo";
+			};
+			name = Debug;
+		};
+		F76BF7182C9E9AB5008863AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TNP7LCQ34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zain.TranslingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Translingo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Translingo";
+			};
+			name = Release;
+		};
+		F76BF71A2C9E9AB5008863AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TNP7LCQ34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zain.TranslingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Translingo;
+			};
+			name = Debug;
+		};
+		F76BF71B2C9E9AB5008863AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8TNP7LCQ34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zain.TranslingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Translingo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76BF6EA2C9E9AB4008863AB /* Build configuration list for PBXProject "Translingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76BF7112C9E9AB5008863AB /* Debug */,
+				F76BF7122C9E9AB5008863AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76BF7132C9E9AB5008863AB /* Build configuration list for PBXNativeTarget "Translingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76BF7142C9E9AB5008863AB /* Debug */,
+				F76BF7152C9E9AB5008863AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76BF7162C9E9AB5008863AB /* Build configuration list for PBXNativeTarget "TranslingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76BF7172C9E9AB5008863AB /* Debug */,
+				F76BF7182C9E9AB5008863AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76BF7192C9E9AB5008863AB /* Build configuration list for PBXNativeTarget "TranslingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76BF71A2C9E9AB5008863AB /* Debug */,
+				F76BF71B2C9E9AB5008863AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76BF6E72C9E9AB4008863AB /* Project object */;
+}
